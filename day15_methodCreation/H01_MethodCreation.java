@@ -21,7 +21,7 @@ public class H01_MethodCreation {
 	scan.close();
 	}
 
-	private static void rakamtoplama(int sayý) {
+	public static void rakamtoplama(int sayý) {
 		if(sayý>=100){
 			System.out.println("Rakamlarý toplamý\t:"+((sayý%10)+((sayý/10)%10)+ ((sayý/100)%10)));
 		} else {
@@ -29,7 +29,7 @@ public class H01_MethodCreation {
 		}
 	}
 
-	private static void buyukmuKucukmu(int sayý) {
+	public static void buyukmuKucukmu(int sayý) {
 		if (sayý==0) {
 			System.out.println("sýfýra eþittir");
 		} else if(sayý>0){
