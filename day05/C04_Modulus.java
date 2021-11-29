@@ -31,6 +31,7 @@ public class C04_Modulus {
 	System.out.println("Rakamlar Toplamý : "+rakamlarToplamý);
 //bu iþlemi basamak sayýsý kadar tekrar edersek toplamý buuruz		
 
+	scan.close();
 	}
 
 }

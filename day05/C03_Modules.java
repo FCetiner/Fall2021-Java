@@ -44,7 +44,7 @@ public class C03_Modules {
 		
 				
 		
-		
+		scan.close();
 		
 		
 	

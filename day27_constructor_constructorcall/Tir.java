@@ -12,7 +12,7 @@ public class Tir {
 	public Tir(int i, String string, String string2, int j, boolean b) {
 				km=i; model=string;  renk=string2;   yýl=j; satýlýkMý=b;
 		
-		// TODO TýrRunner classindan yolladýðýmýz deðerlerin instance veriable'lar ile eþleþmesi için
+		//  TýrRunner classindan yolladýðýmýz deðerlerin instance veriable'lar ile eþleþmesi için
 		//atamalarý yapmam lazým
 		
 	}

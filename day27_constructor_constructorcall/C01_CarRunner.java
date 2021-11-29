@@ -6,7 +6,7 @@ public class C01_CarRunner {
 
 	public static void main(String[] args) {
 		//Dünkü car class'ýndan bir obje oluþturalým
-		//Dünkü Car Classýndan boje oluþturmak istediðimizde
+		//Dünkü Car Classýndan obje oluþturmak istediðimizde
 		// Java Car class'ýný içinde bulunduðumuz class'a import etmek ister
 		
 		Car car=new Car();

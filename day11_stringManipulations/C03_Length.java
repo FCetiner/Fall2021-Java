@@ -1,6 +1,7 @@
 package day11_stringManipulations;
 
 public class C03_Length {
+@SuppressWarnings("unused")
 public static void main(String[] args) {
 	
 	String str1 = "Ali Kahyaoðlu";

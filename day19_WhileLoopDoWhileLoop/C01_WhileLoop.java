@@ -25,6 +25,8 @@ public class C01_WhileLoop {
 		}
 		System.out.println();
 		System.out.print(sayý+" sayýsýnýn " + sayac + " adet tam böleni vardýr");
+	
+	scan.close();
 	}
 
 }

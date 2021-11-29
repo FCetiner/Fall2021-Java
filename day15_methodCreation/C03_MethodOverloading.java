@@ -30,24 +30,29 @@ public class C03_MethodOverloading {
 		
 	}
 
+	@SuppressWarnings("unused")
 	private static void topla(int sayý1, int sayý2, int sayý3) {
 		System.out.println("dört sayýnýn toplamý  :  " + (sayý1+sayý2+sayý3));
 		//burasý parametre
 	}
 
+	@SuppressWarnings("unused")
 	private static void topla(int sayý1, int sayý2) {
 		System.out.println("iki sayýnýn toplamý ii :  " + (sayý1+sayý2));
 		
 	}
 
+	@SuppressWarnings("unused")
 	private static void topla(int sayý1, double sayý2) {
 		System.out.println("iki sayýnýn toplamý id :  " + (sayý1+sayý2));
 		
 	}
+	@SuppressWarnings("unused")
 	private static void topla(double sayý1, int sayý2) {
 		System.out.println("iki sayýnýn toplamý di :  " + (sayý1+sayý2));
 		
 	}
+	@SuppressWarnings("unused")
 	private static void topla(double sayý1, double sayý2) {
 		System.out.println("iki sayýnýn toplamý dd :  " + (sayý1+sayý2));
 		
