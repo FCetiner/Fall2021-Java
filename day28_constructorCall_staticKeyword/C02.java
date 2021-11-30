@@ -9,24 +9,24 @@ public class C02 {
 		// 3 tane obje oluþturalým ve deðiþimleri gözlemleyelim
 
 		C02 obje1 = new C02();
-		System.out.println("Obje1 için x : " + obje1.x + " Obje1 için y : " + obje1.y);
+		System.out.println("Obje1 için x : " + obje1.x + " Obje1 için y : " + obje1.y); //5 10
 
 		// x++; y++; x'e direkt ulaþamayýz obje uzerinden ulaþýrýz
 
 		obje1.x++;
 		obje1.y++;
 
-		System.out.println("iþlemden sonra Obje1 için x : " + obje1.x + " Obje1 için y : " + obje1.y);
+		System.out.println("iþlemden sonra Obje1 için x : " + obje1.x + " Obje1 için y : " + obje1.y); //6 11
 
 		C02 obje2 = new C02();
-		System.out.println("Obje2 için x : " + obje2.x + " Obje2 için y : " + obje2.y);
+		System.out.println("Obje2 için x : " + obje2.x + " Obje2 için y : " + obje2.y); //5 11
 
 		obje2.x++;
 		y++;
-		System.out.println("iþlemden sonra Obje2 için x : " + obje2.x + " Obje2 için y : " + obje2.y);
+		System.out.println("iþlemden sonra Obje2 için x : " + obje2.x + " Obje2 için y : " + obje2.y); //6  12
 
 		System.out.println(
-				" obje 2 oluþturulduktan ve iþlemden sonra obje1'in" + "\n x : " + obje1.x + " y : " + obje1.y);
+				" obje 2 oluþturulduktan ve iþlemden sonra obje1'in" + "\n x : " + obje1.x + " y : " + obje1.y); //6 12
 
 		// ayný class içindeyken static verable lara ulaþmak için objeye ihtiyac yoktur
 		// kullanýrsak Java CTE vermaz fakat static verable'a static yoldan ulaþ diye
