@@ -3,7 +3,7 @@ package day31_dateAndTime;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class C05_DateTimeForMatter {
+public class C05_DateTimeFormatter {
 
 	public static void main(String[] args) {
 
