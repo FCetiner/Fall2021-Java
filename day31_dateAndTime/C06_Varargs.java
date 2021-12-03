@@ -19,7 +19,7 @@ public class C06_Varargs {
 	topla(a,b,c,d,e);
 	topla(a,b,c,d,e,f);
 	// su ana kadar gordugumuz tekniklerle deðiþken sayýda parametreli tek bir method oluþturamayýz
-	
+	//variaty argumants 
 	
 	}
 
@@ -29,7 +29,7 @@ public class C06_Varargs {
 	}
 
 	private static void topla(int a, int b, int c) {
-		System.out.println("iki sayýnýn toplamý : " + (a+b+c));
+		System.out.println("üç sayýnýn toplamý : " + (a+b+c));
 		
 	}
 
