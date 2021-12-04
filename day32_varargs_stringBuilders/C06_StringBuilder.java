@@ -2,6 +2,7 @@ package day32_varargs_stringBuilders;
 
 public class C06_StringBuilder {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 
 
@@ -15,7 +16,9 @@ public class C06_StringBuilder {
 		sb.append("!!!");
 		
 		System.out.println(sb);
-		sb.toString().toUpperCase();
+		
+		String sbBuyukHarf=sb.toString().toUpperCase();
+		
 		System.out.println(sb);
 	}
 
