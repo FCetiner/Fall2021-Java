@@ -8,6 +8,11 @@ public class Personel {
 	protected String telNo;
 	protected int yas;
 	
+	Personel(){
+		System.out.println("Personel parametresiz constructor calýþtý");
+		
+	}
+	
 	//eðer veriablelara access modifier yazmazsak
 	//Java access modifier olarak default acc. mod. atar
 	//boyle olursa sadece o package altýndaki chlid class lar
@@ -16,12 +21,6 @@ public class Personel {
 	//veriable ve methodlarýn acc. mod. larýný protected yaparýz
 	//public yapsak da inherit edilebilir ama biz herkesin eriþmesini deðilde
 	//sadece child classlarýn inherit etmesini istediðimizden tercih ederiz
-	
-	
-	
-	
-	
-	
 	
 	
 	public static void main(String[] args) {

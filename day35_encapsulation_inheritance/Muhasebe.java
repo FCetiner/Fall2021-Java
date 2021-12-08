@@ -4,6 +4,14 @@ public class Muhasebe extends Personel {
 	protected int saatUcreti;
 	protected String statu;
 	protected int maas;
+	
+	
+	public Muhasebe(){
+		System.out.println("Muhasebe parametresiz constructor calýþtý");
+		
+	}
+	
+	
 	public static void main(String[] args) {
 
 		
@@ -11,6 +19,8 @@ public class Muhasebe extends Personel {
 		
 		clsn1.isim="Ali";
 		System.out.println(clsn1.isim);//null
+		
+		
 
 	}
 
