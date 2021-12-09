@@ -17,6 +17,7 @@ package day36_inheritance;
 		}
 		
 		public static void main(String[] args) {
+			@SuppressWarnings("unused")
 			Test01 obj = new Test01("Samet");
 		}
 	}
