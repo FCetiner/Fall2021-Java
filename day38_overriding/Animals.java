@@ -7,6 +7,7 @@ public class Animals {
 
 	}
 
+	//Overridden
 	
 	public void hareket () {
 		System.out.println("Tüm hayvanlar hareket ederler");
