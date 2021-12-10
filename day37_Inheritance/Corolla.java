@@ -20,13 +20,20 @@ public class Corolla extends Toyota{
 		
 		Toyota arb2 = new Corolla();
 		System.out.println(arb2.calisiyoruMu);
-		System.out.println(arb2.tekerSayisi);
+		System.out.println(arb2.tekerSayisi); //Data türümüz toyota oldugu için Toyota'nýn parent classý olan Araba'dan aldý
 		
-		//Data türünü araba yaptýk;
+		
 		
 		Araba arb3 = new Corolla();
 		
-
+		System.out.println(arb3.tekerSayisi);//Data türünü araba yaptýk bu yüzden sadece Araba Classýnýn verilerine ulaþabiliyoruz
+											//Gördüðümüz ve vurgulamak istediðimiz
+		Araba arb4=new Araba();
+	
+	
+		Toyota arb5=new Corolla();//Corolla üretmek ancak Corollanýn özelliklerini sýnýrlamak istiyorum bunun için bu sekilde constractor oluþturulur
+		Toyota arb6 =new  Toyota();
+	
 	}
 
 }
