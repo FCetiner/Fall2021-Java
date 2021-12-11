@@ -1,4 +1,4 @@
-package day22_Arryas;
+package day22_arryas;
 
 import java.util.Arrays;
 

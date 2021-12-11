@@ -28,9 +28,9 @@ public class KumesHayvanları extends Kuslar{
 		
 		Animals kms4 = new KumesHayvanları();
 		
-		kms4.beslenme();
-		kms4.hareket();
-		kms4.solunum();
+		kms4.beslenme();//Tüm hayvanlar beslenir
+		kms4.hareket();//Kümes Hayvanları yürüyerek hareket ederler
+		kms4.solunum();//Kuslar akcigerleri ile nefes alır
 		
 	}
 
