@@ -1,6 +1,7 @@
 package day39_overriding_polymorphism;
 
 public class C02 extends C01{
+@SuppressWarnings("static-access")
 public static void main(String[] args) {
 	
 	C02 obj1 = new C02();
@@ -14,7 +15,8 @@ public static void main(String[] args) {
 	//ulaþamadýgýmýz bir methodu override yapamayýz
 	//Dolayýsý ile signature ayný olmasýna RAGMEN bu ikisi farklý iki method olarak çalýþýr
 	obj2.staticMethod();
-	
+	//Static methadlar override edilemez
+	//Dolayýsý ile signature ayný olmasýna RAGMEN bu ikisi farklý iki method olarak çalýþýr
 	
 	
 }

@@ -8,6 +8,7 @@ public class C01 {
 		System.out.println("Parent class static method caliþti");
 	}
 	
+	@SuppressWarnings("unused")
 	private void privateMethod () {
 		System.out.println("Parent class private method");
 		
