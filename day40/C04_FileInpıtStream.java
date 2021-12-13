@@ -8,6 +8,7 @@ public class C04_FileInpýtStream {
 	public static void main(String[] args) throws FileNotFoundException {
 		// Javada bir dosyaya ulasmak istediðimzde FileInputStream classýndan yardým alýrýz
 		
+		@SuppressWarnings({ "unused", "resource" })
 		FileInputStream fis = new FileInputStream("src\\day40\\yazý.txt");
 
 		//java bu kodda olasý bir problem öngörüyor
