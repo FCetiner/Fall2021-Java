@@ -3,7 +3,7 @@ package day40;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
-public class C04_FileInpýtStream {
+public class C04_FileInputStream {
 
 	public static void main(String[] args) throws FileNotFoundException {
 		// Javada bir dosyaya ulasmak istediðimzde FileInputStream classýndan yardým alýrýz

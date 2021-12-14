@@ -23,6 +23,7 @@ public class C08_IllegalArgumentException {
 			System.out.println(e);
 			System.out.println("Yaþ sýfýrdan küçük olamaz");
 		}
+	scan.close();
 	}
 
 }
