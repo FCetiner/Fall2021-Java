@@ -2,9 +2,8 @@ package day42_AbstractClasses;
 
 public class Personel {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	public void statu() {
+		System.out.println("Sirkete alýnan herkes bizim personelimizdir...imza:Personel");
 	}
-
+	
 }
