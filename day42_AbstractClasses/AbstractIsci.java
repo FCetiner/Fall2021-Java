@@ -1,4 +1,4 @@
-package day42_AbstractClasses;
+package day42_abstractClasses;
 
 public abstract class AbstractIsci extends AbstractMuhasebe{
 

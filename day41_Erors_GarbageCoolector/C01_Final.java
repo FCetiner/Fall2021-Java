@@ -1,4 +1,4 @@
-package day41_Erors_GarbageCoolector;
+package day41_erors_garbageCoolector;
 
 public class C01_Final {
 	final static  double pi=3.14;
