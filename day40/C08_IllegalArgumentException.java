@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class C08_IllegalArgumentException {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 
 		//Kullanýcýdan yaþ alýn

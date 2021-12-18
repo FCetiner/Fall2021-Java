@@ -6,6 +6,7 @@ public class Corolla extends Toyota{
 	boolean elektrikliMi;
 	int tekerSayisi=4;
 	String uretimYeri = "Türkiye";
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		
 				Corolla 						arb1 			= 			new 	Corolla();

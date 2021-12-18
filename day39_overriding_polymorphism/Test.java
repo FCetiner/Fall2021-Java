@@ -28,6 +28,7 @@ class Child extends Parent {
 
 public class Test {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		
 		Parent obj1 = new Parent();
