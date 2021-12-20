@@ -29,7 +29,8 @@ public class C04_Set {
 		liste.add('x');
 		liste.add(s1);
 		
-		System.out.println(liste);
+		System.out.println(liste);//[5, Java Super, true, x, [Java Candır, 4, 7, 11]]
+									
 	
 	
 	
