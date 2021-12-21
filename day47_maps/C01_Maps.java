@@ -1,7 +1,6 @@
 package day47_maps;
 
 import java.util.ArrayList;
-import java.util.Collection;
 
 import java.util.HashMap;
 import java.util.List;
@@ -46,8 +45,15 @@ public class C01_Maps {
 		List<String> valueList=new ArrayList<>((sýnýf.values()));
 		System.out.println("Value List : "+valueList);//Value List : [Ali, Can, J.dev, Veli, Yan, QA, Ali, Yan, C#, Ayþe, Can, QA]
 		
-		System.out.println(valueList.size());
+		System.out.println(valueList.size());//4
 		
+		List<String>isimListesi=new ArrayList<>();
+		String bilgiler[]=new String[3];
+		for (int i = 0; i < valueList.size(); i++) {
+			bilgiler=valueList.get(i).split(",");
+			isimListesi.add(bilgiler[0]); //her seferinde sýfýrýncý elemaný alacagýmýz için 0 yaptýk
+		}
+		System.out.println(isimListesi);
 		
 	}
 
