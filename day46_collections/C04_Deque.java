@@ -23,7 +23,7 @@ public class C04_Deque {
 		System.out.println(ciftBasli);//[Seyfullah, Ali, Emine]
 		
 		ciftBasli.add(null);
-		System.out.println(ciftBasli);
+		System.out.println(ciftBasli); //
 
 	}
 
